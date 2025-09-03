@@ -26,10 +26,11 @@
                         Projects
                     <i class="dropdown icon"></i>
                     <div class="menu">
+                        <div class="item"><a class="project-links" href="#MovieDraftManager">Movie Draft Manager</a></div>
                         <div class="item"><a class="project-links" href="#fastfilmography">Fast Filmography</a></div>
                         <div class="item"><a class="project-links" href="#wordleGolf">Wordle Golf</a></div>
                         <div class="item"><a class="project-links" href="#jazzMatch">Jazz Match</a></div>
-                        <div class="item"><a class="project-links" href="#insurance">Insurance Calculator</a></div>
+                        <!-- <div class="item"><a class="project-links" href="#insurance">Insurance Calculator</a></div> -->
                         <div class="item"><a class="project-links" href="#pizza">Pizza Order Calculator</a></div>
                     </div>   
                 </div>
@@ -114,6 +115,22 @@
 <div class="container projects">
     <div class="ui two column grid stackable">
         <div class="column">
+             <div class="ui fluid card show-on-scroll" id="MovieDraftManager">
+                <div class="center aligned image">
+                    <a href="https://moviedraftmanager.azurewebsites.net/" target="_blank">
+                        <img class="ui image" src="./imgs/MovieDraftManager.png" alt="Screenshot of moviedraftmanager.azurewebsites.net">
+                    </a>
+                </div> 
+                <div class="content">
+                    <a class="center aligned header" href="https://moviedraftmanager.azurewebsites.net/" target="_blank">Movie Draft Manager</a>
+                    <div class="center aligned description">
+                        <p>A .NET 8 Blazor app, built to help my friends over at <a href="https://x.com/draftmoviepod">The Movie Draft Podcast</a> create random selection orders with an interesting and easy to use UI that matches their brand.</p>
+                        <p>Utilizing EF Core and a SQL database with code first migrations, the app is hosted with Azure app services and features full authentication, authorization, user roles and custom registration code functionality to restrict new user registrations.</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="column">
              <div class="ui fluid card show-on-scroll" id="fastfilmography">
                 <div class="center aligned image">
                     <a href="https://fastfilmography.fun/" target="_blank">
@@ -162,6 +179,7 @@
                 </div>
             </div>
         </div>
+        <!--
         <div class="column">
             <div class="ui fluid card show-on-scroll" id="insurance">
                 <div class="center aligned image">
@@ -180,25 +198,8 @@
                 </div>
             </div>
         </div>
-        <!-- 
-        <div class="column">
-            <div class="ui fluid card show-on-scroll" id="circles">
-                    <div class="center aligned image">
-                        <a href="./projects/soundCircles.html" target="_blank">
-                            <img class="ui image centered" src="./imgs/soundCircles.gif" alt="A gif of sound circles app in motion">
-                        </a>
-                    </div>
-                    <div class="content">
-                        <a class="center aligned header" href="./projects/soundCircles.html" target="_none">Sound Cirlces</a>
-                        <div class="center aligned description">
-                            <p>Here's an interesting project! This was actually part of a code along in a bootcamp but I just thought it was too cool to hide. In this project, I learned how to work with Javascript libraries and also about the canvas HTML tag. The site is a clone of a site called patatap and is pretty fun to play around with. Upon pressing any lettered key on your keyboard, a sound is played and an animation is displayed.</p>
-                            
-                            <p>Feel free to give it a shot and see if you can come up with a cool song or two!</p>
-                        </div>
-                    </div>
-            </div>
-        </div>
         -->
+        
         
         <div class="centered column">
                 <div class="ui fluid card show-on-scroll" id="pizza">
@@ -223,7 +224,7 @@
 
   <!-- FOOTER -->
 <footer>
-    <p class="footer">Site created and maintained by 202code&nbsp;|&nbsp;
+    <p class="footer">Site created and maintained by Tyler Beck&nbsp;|&nbsp;202code&nbsp;|&nbsp;
         <span>
             <script type="text/JavaScript">
                 document.write(new Date().getFullYear());
